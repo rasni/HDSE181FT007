@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:auto;
+	padding: 0;
+	
+}
+body{
+	background-color: rgb(249,249,249);
+	min-height: 1024px;
+	min-width: 900px;
+	
+}
+.head{
+	width:100%;
+	height: 90px;
+	border-bottom: solid 2px rgb(255,255,255);
+	background-color:rgb(255,255,255);
+	 box-shadow: 20px 3px rgb(223, 226, 226);
+	
+	
+}
+.head h2,p{
+	display: inline-block;
+	padding:10px,0,10px,0;
+	margin-top: 30px
+}
+.head .h21{
+	font-style: italic;
+	color:rgb(111, 218, 68);
+}
+.head p{
+	float: right;
+	margin-right: 250px;
+	margin-top: 30px
+	
+	
+}
+.head .h21{
+	margin-left: 375px;
+	
+}
+.head a{
+	text-decoration: none;
+	color:rgb(111, 218, 68);
+} 
+.head a:hover{
+	text-decoration:underline;
+	
+} 
+.frm{
+	
+	width:450px;
+	height: 350px;
+	margin-top: 140px;
+	border: solid 2px rgb(223, 226, 226);
+	background-color:rgb(255,255,255);
+	 box-shadow: 2px 3px rgb(223, 226, 226);
+	border-spacing: 20px;
+	
+	 
+	}
+.fr{
+	width:400px;
+	margin-top: 40px;
+}
+.btn{
+	margin-bottom: 20px;
+}
+.footer{
+	width:100%;
+	height:320px;
+}
